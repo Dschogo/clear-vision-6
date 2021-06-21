@@ -190,6 +190,7 @@
 	min-width: 5rem!important;
 }
 
-.button-38aScr[aria-label="Send a gift"] {
+.button-38aScr[aria-label="Send a gift"], 
+.button-38aScr[aria-label="Open GIF picker"] {
 	display: none;	
 }
