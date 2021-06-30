@@ -90,14 +90,14 @@
 .numberBadge-2s8kKX {
 	color: black!important;
 }
+
 .messagesPopoutWrap-1MQ1bW,
 .profileBanner-33-uE1,
 .root-3QyAh1,
 .profileBannerPremium-35utuo {
-	width: 45vw!important;
-	max-height: 850px!important;
-	
+	width: 45vw!important;	
 }
+
 .profileBannerPremium-35utuo{
 	height: 18vw;
 }
@@ -203,4 +203,15 @@
 
 .footer-3UKYOU {
 	background-color: rgba(20,20,20,0.9)!important;
+}
+.settingsBanner-15-pZk {
+	height: 264px;
+}
+
+.avatar-1uQSZT {
+	top: 244px;
+}
+
+.root-3QyAh1 > .body-r6_QPy {
+	height: auto;
 }
