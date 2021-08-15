@@ -1,5 +1,6 @@
 /* settings panel*/
 .layer-3QrUeG[aria-label="USER_SETTINGS"],
+.layer-3QrUeG[aria-label="CHANNEL_SETTINGS"],
 .layer-3QrUeG[aria-label="GUILD_SETTINGS"] {
 	background-color: rgba(1,1,1,0.33)!important;
 }
