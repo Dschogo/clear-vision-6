@@ -187,6 +187,10 @@
 	background-color: rgba(1,1,1,0.4)!important;
 }
 
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+	background-color: hsl(139,calc(var(--saturation-factor, 1)*7.3%),43.9%)!important;
+}
+
 /* UNTOUCHED
 
 .container-2dqNWc{
