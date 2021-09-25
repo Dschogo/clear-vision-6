@@ -191,6 +191,10 @@
 	background-color: hsl(139,calc(var(--saturation-factor, 1)*7.3%),43.9%)!important;
 }
 
+.addEntryCard-11Q874 {
+	display: none;
+}
+
 /* UNTOUCHED
 
 .container-2dqNWc{
