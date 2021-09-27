@@ -100,12 +100,6 @@
 	height: 160px;
 }
 
-
-/* side unread badge */
-.numberBadge-2s8kKX {
-	color: black!important;
-}
-
 /* bigger emoji preview*/
 .primaryEmoji-3LinDq {
 	width: 5rem!important;
@@ -150,9 +144,7 @@
 }
 
 
-
 /* emote picker */
-
 .positionContainer-DEuh7X,
 .body-r6_QPy,
 .emojiPicker-3PwZFl {
@@ -168,6 +160,7 @@
 .header-2mZ9Ov:after {
 	background-color: rgba(1,1,1,0.1)!important;
 }
+
 
 /* Send timestamps */
 .popout-VcNcHB {
@@ -195,10 +188,78 @@
 	display: none;
 }
 
-/* role selector in popup */
+
+/* role selector in popup*/
 .list-1MFD7e {
 	height: auto;
 	max-height: 60vh!important;
+}
+
+
+/* settings pannel */
+.container-3baos1 > .flex-1O1GKY, .container-1giJp5 > .flex-1O1GKY,
+.activityPanel-28dQGo .actions-aUdUfC {
+    background: unset;
+    border-radius: 0 0 0 0;
+}
+
+.container-3baos1 > .flex-1O1GKY > :nth-child(n+2):before, .container-1giJp5 > .flex-1O1GKY > :nth-child(n+2):before {
+	background: unset;
+}
+
+/* unread badge */
+.numberBadge-2s8kKX,
+.textBadge-1iylP6 {
+	background-color: rgba(255,255,255,0.1)!important;
+	box-shadow: 
+		0 0 10px -3px rgba(255,255,255,0.1),
+		0 0 0 1px rgba(255,255,255,0.1);
+}
+
+
+/* reaction menu bg */
+.buttonContainer-DHceWr .wrapper-2aW0bm {
+	background-color: rgba(1,1,1,0.1)!important;
+}
+
+/* rolemembers role mention popuplist bg*/
+.rolePopout-25sKc-::before {
+	content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+	margin: calc(0 * var(--user-popout-blur));
+    background: var(--user-popout-image) 
+		var(--user-popout-position)/var(--user-popout-size) 
+		var(--user-popout-repeat) 
+		var(--user-popout-attachment);
+    filter: grayscale(var(--user-popout-grayscale)) 
+		sepia(var(--user-popout-sepia)) 
+		invert(var(--user-popout-invert))
+		brightness(var(--user-popout-brightness)) 
+		contrast(var(--user-popout-contrast)) 
+		saturate(var(--user-popout-saturation)) 
+		blur(var(--user-popout-blur));
+    z-index: -1;
+	
+}
+.rolePopout-25sKc- {
+	background: var(--user-popout-overlay);
+	background-color: rgba(20,20,20,0.7)!important;
+    margin-top: -10px!important;
+}
+
+.roleScroller-211T6P {
+	background-color: rgba(20,20,20,0.1)!important;
+	border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+	background: var(--user-popout-overlay);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 4px;
+	padding-bottom: 8px;
 }
 
 /* UNTOUCHED
