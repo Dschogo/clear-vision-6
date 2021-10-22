@@ -2,9 +2,11 @@
 .layer-3QrUeG[aria-label="USER_SETTINGS"],
 .layer-3QrUeG[aria-label="CHANNEL_SETTINGS"],
 .layer-3QrUeG[aria-label="GUILD_SETTINGS"] ,
-.scroller-1IIF0A{
+.scroller-1IIF0A, 
+.header-39GIC8 {
 	background-color: rgba(1,1,1,0.33)!important;
 }
+
 
 
 /* text under name */
