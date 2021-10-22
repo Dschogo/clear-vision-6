@@ -1,7 +1,8 @@
-/* settings panel*/
+/* settings panel + game page bg*/
 .layer-3QrUeG[aria-label="USER_SETTINGS"],
 .layer-3QrUeG[aria-label="CHANNEL_SETTINGS"],
-.layer-3QrUeG[aria-label="GUILD_SETTINGS"] {
+.layer-3QrUeG[aria-label="GUILD_SETTINGS"] ,
+.scroller-1IIF0A{
 	background-color: rgba(1,1,1,0.33)!important;
 }
 
