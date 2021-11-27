@@ -292,6 +292,11 @@
 	background: rgba(0,0,0,0.3);
 }
 
+.ShowAllActivities-wrapper-wrapper
+.ShowAllActivities-wrapper-controls {
+	background: unset!important;
+}
+
 /* UNTOUCHED
 
 .container-2dqNWc{
