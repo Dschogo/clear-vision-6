@@ -138,9 +138,13 @@
 	background: unset!important;
 	margin-top: -20px!important;
 }
-.actionIcon-PgcMM2 {
-	display: none;
+
+/* hide channel icons*/
+.iconItem-F7GRxr[aria-label="Create Invite"],
+.iconItem-F7GRxr[aria-label="Edit Channel"] {
+	display: none!important;
 }
+
 
 .members-1998pB{
 	margin-top: 0px!important;
