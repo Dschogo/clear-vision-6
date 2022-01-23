@@ -41,7 +41,7 @@
 
 /* hide buttons */
 .button-f2h6uQ[aria-label="Send a gift"], 
-.button-f2h6uQ[aria-label="Open sticker picker"], 
+/*.button-f2h6uQ[aria-label="Open sticker picker"], */
 .button-f2h6uQ[aria-label="Open GIF picker"] {
 	display: none;	
 }
@@ -72,6 +72,7 @@
 
 
 /* Profile popout */
+
 .focusLock-2tveLW[aria-label="User Profile Modal"],
 .root-8LYsGj {
 	width: 45vw!important;	
@@ -93,7 +94,6 @@
 
 
  /* profile modal */
-
 .userPopout-2j1gM4 {
 	width: auto!important;
 	min-width: 250px!important;
@@ -210,6 +210,7 @@
 .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ:after,
 .privateChannels-oVe7HL .channel-1Shao0.selected-1-Z6gm .layout-1qmrhw:after {
 	background: unset;
+	display: none;
 }
 
 .theme-dark {
@@ -341,4 +342,16 @@
 
 .wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ .mainContent-20q_Hp .name-28HaxV {
 	text-shadow: 0 0 0px;
+}
+
+
+.item-3XjbnG.selected-g-kMVV.themed-2-lozF:after {
+	background: rgba(var(--indicator-selected), 0.5)!important;
+}	
+
+
+
+
+.containerDefault-YUSmu3:hover .iconItem-1EjiK0.iconBase-2G48Fc + .nsfwTag-666omg {
+	display: block;
 }
