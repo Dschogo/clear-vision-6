@@ -51,6 +51,7 @@
 #permissions-modal-wrapper #permissions-modal{
 	border-radius: 10px!important;	
 	height: auto!important;
+	max-height: 90vh;
 }
 
 
@@ -81,11 +82,15 @@
 
 .profileBanner-1owKI5 {
 	width: 45vw;
-	height: 20vh;
+	height: 10vw;
+}
+.profileBannerPremium-KD60EB {
+	width: 45vw;
+	height: 18vw;
 }
 
 .body-1Ukv50 {
-	height: 33.7vh!important;
+	height: 35.8vh!important;
 }
 
 .profileBannerPremium-35utuo{
@@ -350,8 +355,12 @@
 }	
 
 
-
-
 .containerDefault-YUSmu3:hover .iconItem-1EjiK0.iconBase-2G48Fc + .nsfwTag-666omg {
 	display: block;
 }
+/*
+.userPopout-2j1gM4 .body-2wLx-E,
+.userPopout-2j1gM4 .footer-3naVBw,
+.userPopout-2j1gM4 .headerNormal-3Zn_yu, .userPopout-2j1gM4 .headerTop-3GPUSF {
+	left: 16px;
+}*/
