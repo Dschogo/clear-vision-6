@@ -398,3 +398,7 @@
 .userPopout-2j1gM4 .headerNormal-3Zn_yu, .userPopout-2j1gM4 .headerTop-3GPUSF {
 	left: 16px;
 }*/
+
+.item-1OdjEX::before {
+	display: none;
+}
