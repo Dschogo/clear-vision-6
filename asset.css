@@ -399,6 +399,6 @@
 	left: 16px;
 }*/
 
-.item-1OdjEX::before {
+#user-context-user-volume::before {
 	display: none;
 }
