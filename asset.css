@@ -15,6 +15,10 @@
 	background-color: rgba(1,1,1,0.33)!important;
 }
 
+.link-39sEB3[href="/store"] {
+	display: None;
+}
+
 
 /* text under name */
 .container-YkUktl:before,
@@ -272,7 +276,9 @@
     content:"";
     border-left:var(--indicator-border-info) transparent
 }
-#app-mount .channel-1Shao0:before,#app-mount .containerDefault-YUSmu3 .wrapper-NhbLHG:before{
+#app-mount .channel-1Shao0:before,
+#app-mount .containerDefault-YUSmu3 .wrapper-NhbLHG:before,
+#app-mount .containerUserOver-SDa1HW .wrapper-NhbLHG:before {
     position:absolute;
     top:0;
     left:0;
@@ -388,6 +394,14 @@
 
 .containerDefault-YUSmu3:hover .iconItem-1EjiK0.iconBase-2G48Fc + .nsfwTag-666omg {
 	display: block;
+}
+
+.containerUserOver-SDa1HW {
+	
+	position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
 }
 
 .userLimit-VbEkeM {
