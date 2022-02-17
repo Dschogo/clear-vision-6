@@ -420,3 +420,8 @@
 #user-context-user-volume > .cursorPointer-B3uwDA > .item-1OdjEX::before {
 	display: none;
 }
+
+ /* Friendlist badge value number */
+.item-3mHhwr > .numberBadge-37OJ3S {
+	color: white!important;
+}
