@@ -425,3 +425,8 @@
 .item-3mHhwr > .numberBadge-37OJ3S {
 	color: white!important;
 }
+
+/* dm list activities*/
+.activityText-ev7Z1T > strong {
+	color: var(--main-color);
+}
