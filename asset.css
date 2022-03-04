@@ -444,8 +444,16 @@
 .iconContainer-21RCa3 {
 	margin-right: 2px;
 }
+.channelInfo-3jN1ay {
+	margin-left: 2px;
+}
 
 /* speeedy the menus*/
 .menu-1QACrS .item-1OdjEX {
     transition: none;
+}
+
+/* fix on channel hover pinged counter*/
+.iconVisibility-vptxma:hover .channelInfo-3jN1ay {
+	display: unset;
 }
