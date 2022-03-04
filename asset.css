@@ -415,6 +415,10 @@
 	left: 16px;
 }*/
 
+#user-context-user-volume::before {
+	display: none;
+}
+
 
 #user-context-user-volume > .cursorPointer-B3uwDA > .item-1OdjEX::before {
 	display: none;
@@ -427,4 +431,21 @@
 /* dm list activities*/
 .activityText-ev7Z1T > strong {
 	color: var(--main-color);
+}
+
+/* Guild + dm Channel */
+
+.content-1gYQeQ,
+.layout-1LjVue {
+	padding: 0px;
+	padding-right: 4px;
+}
+
+.iconContainer-21RCa3 {
+	margin-right: 2px;
+}
+
+/* speeedy the menus*/
+.menu-1QACrS .item-1OdjEX {
+    transition: none;
 }
