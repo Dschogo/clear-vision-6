@@ -458,3 +458,8 @@
 .iconVisibility-vptxma:hover .channelInfo-3jN1ay {
 	display: unset;
 }
+
+/* fix game activity toggle pushing other buttons off*/
+.withTagAsButton-OsgQ9L, .withTagless-10ooWt {
+	min-width: unset;
+}
