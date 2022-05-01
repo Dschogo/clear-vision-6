@@ -99,6 +99,7 @@
 	height: 10vw;
 }
 .profileBannerPremium-KD60EB {
+	max-width: unset;
 	width: 45vw;
 	height: 18vw;
 }
