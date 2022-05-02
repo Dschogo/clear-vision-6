@@ -464,5 +464,9 @@
 
 /* fix game activity toggle pushing other buttons off*/
 .withTagAsButton-OsgQ9L, .withTagless-10ooWt {
-	min-width: unset;
+	min-width: 96px;
+}
+
+.bodyInnerWrapper-2bQs1k {
+	background-color: unset;
 }
