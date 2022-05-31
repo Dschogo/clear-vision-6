@@ -95,6 +95,7 @@
 }
 
 .profileBanner-1owKI5 {
+	max-width: unset;
 	width: 45vw;
 	height: 10vw;
 }
