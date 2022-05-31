@@ -111,6 +111,10 @@
 .profileBannerPremium-35utuo{
 	width: 18vw;
 }
+/* profile popout scroll links */
+.root-8LYsGj>.body-1Ukv50 {
+	overflow-y: scroll;
+}
 
 
  /* profile modal */
