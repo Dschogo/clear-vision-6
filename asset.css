@@ -75,7 +75,7 @@
 .perm-side,
 .bd-emote-content {
 	background-color: rgba(1,1,1,0.15)!important;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);}
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .ShowHiddenChannels-modal,
@@ -91,7 +91,7 @@
 .focusLock-2tveLW[aria-label="User Profile Modal"],
 .root-8LYsGj {
 	width: 45vw!important;	
-	height: 70vh;
+	height: 90vh;
 }
 
 .profileBanner-1owKI5 {
@@ -106,7 +106,7 @@
 }
 
 .body-1Ukv50 {
-	height: 41vh!important;
+	height: 100%!important;
 }
 
 .profileBannerPremium-35utuo{
