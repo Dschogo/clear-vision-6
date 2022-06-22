@@ -244,8 +244,8 @@
 
 /* [ THEME MODE SPECIFIC ] */
 .theme-dark {
-	--indicator-selected: 0, 156, 148;
-	--indicator-unread: 255, 255, 255;
+	--indicator-selected: 255, 255, 255;
+	--indicator-unread: 180, 180, 180;
 	--indicator-connected: 87, 242, 135;
 }
 
@@ -338,16 +338,22 @@
 #app-mount .selectedCategoryItem-ZjqSui::before {
     border-left: var(--indicator-border-info) var(--indicator-selected-border);
 }
-#app-mount .modeSelected-3DmyhH .overflow-1wOqNV,
+
+
+/* #app-mount .modeSelected-3DmyhH .overflow-1wOqNV,
 #app-mount .interactive-1vLZ_I.selected-3veCBZ .overflow-1wOqNV,
 #app-mount .selectedCategoryItem-ZjqSui .overflow-1wOqNV {
     color: var(--indicator-selected);
 }
+
+
 #app-mount .modeSelected-3DmyhH div > svg,
 #app-mount .interactive-1vLZ_I.selected-3veCBZ div > svg,
 #app-mount .selectedCategoryItem-ZjqSui div > svg {
     color: var(--indicator-selected-icons);
 }
+
+*/
 #app-mount .selectedCategoryItem-ZjqSui .wrappedName-1GzMwB {
     color: var(--indicator-active);
 }
