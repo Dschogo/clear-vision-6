@@ -348,7 +348,7 @@
 #app-mount .modeSelected-3DmyhH .overflow-1wOqNV,
 #app-mount .interactive-1vLZ_I.selected-3veCBZ .overflow-1wOqNV,
 #app-mount .selectedCategoryItem-ZjqSui .overflow-1wOqNV {
-    color: var(--main-color);
+    color: var(--indicator-selected);
 }
 #app-mount .modeSelected-3DmyhH div > svg,
 #app-mount .interactive-1vLZ_I.selected-3veCBZ div > svg,
