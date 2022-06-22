@@ -344,7 +344,7 @@
 #app-mount .modeSelected-3DmyhH .overflow-1wOqNV,
 #app-mount .interactive-1vLZ_I.selected-3veCBZ .overflow-1wOqNV,
 #app-mount .selectedCategoryItem-ZjqSui .overflow-1wOqNV {
-    color: var(--indicator-selected);
+    color: var(--indicator-selected-border);
 }
 
 #app-mount .modeSelected-3DmyhH div > svg,
@@ -354,7 +354,7 @@
 }
 
 #app-mount .selectedCategoryItem-ZjqSui .wrappedName-1GzMwB {
-    color: var(--indicator-active);
+    color: var(--indicator-selected-border);
 }
 
 #app-mount .modeUnread-3Cxepe {
