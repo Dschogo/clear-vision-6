@@ -257,7 +257,7 @@
 	--indicator-selected-border: rgba(var(--indicator-selected));
 	--indicator-selected-icons: rgba(var(--indicator-selected));
 	--indicator-selected-hover:  rgba(var(--indicator-selected), 0.18);
-	--indicator-selected-background: rgba(var(--indicator-selected), 0.1);
+	--indicator-selected-background: rgba(var(--indicator-selected), 0.2);
 	
 	--indicator-unread-border: rgba(var(--indicator-unread), 0.6);
 	--indicator-unread-icons: var(--indicator-unread-border);
