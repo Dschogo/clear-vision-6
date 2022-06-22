@@ -249,13 +249,6 @@
 	--indicator-connected: 87, 242, 135;
 }
 
-.theme-light {
-	--indicator-selected: 88, 101, 242;
-	--indicator-unread: 0, 0, 0;
-	--indicator-connected: 65, 183, 102;
-	--indicator-active: black
-}
-
 :root {
 	--indicator-border-info: solid 2px;
 	--indicator-rounding-info: 0 0px 0px 0;
